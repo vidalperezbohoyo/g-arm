@@ -19,11 +19,11 @@ You have to run first the ROS 2 driver with:
 ```
 ros2 run g_arm driver.py
 ```
-In other terminal, you have to launch the g_arm MoveIt2 launcher:
+In other terminal, you have to launch the **G-Arm MoveIt2 launcher**:
 ```
 ros2 run g_arm_moveit2 demo.launch.py
 ```
-If all has been launched correctly, now you can control the arm via Rviz Moveit plugin.  
+If all has been launched correctly, now you can control the arm via **Rviz Moveit UI plugin**.  
   
 Furthermore, you can control the arm by code inside the MoveIt framework. The ```g_arm_python_examples``` package contains some examples in Python to 
 make trajectories and taking objects with the electromagnet.
