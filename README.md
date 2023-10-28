@@ -1,13 +1,13 @@
 # G-Arm
 This is the official repo of a full open source 3D printed robotic arm called G-Arm.
 
-You can see some demos in this [Youtube channel](https://www.youtube.com/@mrvaidel4999/featured).  
+You can see some demos in this [Youtube channel](https://www.youtube.com/@mrvaidel4999/featured) [<img src="https://www.youtube.com/favicon.ico" width="16" height="16">](https://www.youtube.com/).  
 # How to make it?
 1. Generate all the **.stl** files from the source files in FreeCAD. Then print them with the recommended densities shown [here](https://github.com/vidalperezbohoyo/g-arm/wiki/List-of-3D-printed-parts).
 2. Buy all the necessary parts (or other equivalent) listed [here](https://github.com/vidalperezbohoyo/g-arm/wiki/List-of-purchasable-parts).
 3. Assemble the entire robot based on the [assembly file](https://github.com/vidalperezbohoyo/g-arm/blob/main/hardware/FreeCad/%230_ASSEMBLY.FCStd).
 4. Connect the electronics as [this](https://github.com/vidalperezbohoyo/g-arm/wiki/Electronic-diagram) diagram.
-5. Cross your fingers and install the software shown below.
+5. Cross your fingers 🤞 and install the software shown below.
 
 # Software to control it
 1. Currently, it uses [**GRBL**](https://github.com/bdring/Grbl_Esp32) as the integrated firmware in the robot's base. The required GRBL configuration can be found [here](https://github.com/vidalperezbohoyo/g-arm/blob/main/documentation/GRBL_config.txt).
