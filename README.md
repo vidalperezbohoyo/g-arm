@@ -15,11 +15,11 @@ the ROS 2 packages created for this robot into your ROS 2 workspace (and source 
 3. If you don't want to use via ROS 2, you can use the Python classes from this folder to control the robot at middle level.
 
 # How to launch the software
-You have to run first the **G-Arm ROS 2 driver** with:
+You have to run first the G-Arm **ROS 2 driver** with:
 ```
 ros2 run g_arm driver.py
 ```
-In other terminal, you have to launch the **G-Arm MoveIt2 launcher**:
+In other terminal, you have to launch the G-Arm **MoveIt2 launcher**:
 ```
 ros2 run g_arm_moveit2 demo.launch.py
 ```
