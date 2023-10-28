@@ -4,8 +4,9 @@ This is the official repo of a full open source 3D printed robotic arm called G-
 # How to make it?
 1. Generate all the **.stl** files from the source files in FreeCAD. Then print them with the recommended densities shown here.
 2. Buy all the necessary parts (or other equivalent) listed here.
-3. Connect the electronics as this diagram.
-4. Cross your fingers and install the software.
+3. Assemble the entire robot based on the assembly file.
+4. Connect the electronics as this diagram.
+5. Cross your fingers and install the software.
 
 # Software to control it
 1. Currently, it uses [**GRBL**](https://github.com/bdring/Grbl_Esp32) as the integrated firmware in the robot's base. The required GRBL configuration can be found here.
