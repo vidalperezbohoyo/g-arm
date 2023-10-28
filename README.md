@@ -1,6 +1,7 @@
 # G-Arm
 This is the official repo of a full open source 3D printed robotic arm called G-Arm.
 
+You can see some demos in this [Youtube channel](https://www.youtube.com/@mrvaidel4999/featured).  
 # How to make it?
 1. Generate all the **.stl** files from the source files in FreeCAD. Then print them with the recommended densities shown [here](https://github.com/vidalperezbohoyo/g-arm/wiki/List-of-3D-printed-parts).
 2. Buy all the necessary parts (or other equivalent) listed [here](https://github.com/vidalperezbohoyo/g-arm/wiki/List-of-purchasable-parts).
