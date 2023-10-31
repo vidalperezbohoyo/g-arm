@@ -33,3 +33,13 @@ If all has been launched correctly, now you can control the arm via **Rviz Movei
 Furthermore, you can control the arm by code inside the MoveIt framework. The ```g_arm_python_examples``` package contains some examples in Python to 
 make trajectories and taking objects with the electromagnet. Them are detailed in the [wiki](https://github.com/vidalperezbohoyo/g-arm/wiki/MoveIt-Examples).
 
+# How to contribute 🤘😎🤘
+There are some tasks that can improve this project:  
+### **Develop a low level firmware to replace GRBL**
+This must be robust and must integrate homing feature. Probably this can be resolved by using a very comprensive configuration of the new FluidNC firmware.
+### **Create a fourth degree of freedom at the end of the robot** 
+Some tool or end-effector link with a servo or little stepper to rotate objects in XY plane.  
+- For **hardware**, use FreeCAD to design all the parts. The desired motor must be compatible with the MKS DLC32 board or if other board is needed, the robot base should be modified to install the new one.
+- For **software**, the new DOF should be controlled by software. This involves all the software layers (from robot firmware to MoveIt).
+### **Create some examples with artificial vision** 
+Using RGB/RGBD cameras and object detection inside MoveIt framework.  
