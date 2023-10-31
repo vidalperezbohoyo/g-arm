@@ -30,4 +30,5 @@ ros2 run g_arm_moveit2 demo.launch.py
 If all has been launched correctly, now you can control the arm via **Rviz Moveit UI plugin**.  
   
 Furthermore, you can control the arm by code inside the MoveIt framework. The ```g_arm_python_examples``` package contains some examples in Python to 
-make trajectories and taking objects with the electromagnet.
+make trajectories and taking objects with the electromagnet. Them are detailed in the [wiki](https://github.com/vidalperezbohoyo/g-arm/wiki/MoveIt-Examples).
+
