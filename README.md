@@ -13,6 +13,7 @@ You can see some demos in this [Youtube channel](https://www.youtube.com/@mrvaid
 5. Cross your fingers 🤞 and install the software shown below.
 
 # Software to control it
+**Note:** A strong point of this project is that **it is not necessary to have the real robot to practice and develop behaviors**. If you have built the real robot, you can play with it by running the driver shown later.
 1. Currently, it uses [**GRBL**](https://github.com/bdring/Grbl_Esp32) as the integrated firmware in the robot's base. The required GRBL configuration can be found [here](https://github.com/vidalperezbohoyo/g-arm/blob/main/documentation/GRBL_config.txt).
 2. It is recommended to control it at a high level using ROS 2 and MoveIt2. For that, you have to install [**ROS 2 Humble**](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html) and [**MoveIt 2**](https://moveit.ros.org/install-moveit2/binary/). Also, you have to copy
 the ROS 2 packages created for this robot into your ROS 2 workspace (and source them correctly). On top of that, you have the [**PyMoveit API**](https://github.com/AndrejOrsula/pymoveit2) installed.
